@@ -1,0 +1,79 @@
+    1  ls
+    2  git init
+    3  ls
+    4  ls -l
+    5  cd sreedevops/
+    6  cd ..
+    7  git init
+    8  ls
+    9  ls -l
+   10  cd sreedevops/
+   11  cd ..
+   12  git init
+   13  cd sreedevops/
+   14  touch myfirstwork.txt
+   15  vi myfirstwork.txt 
+   16  cat myfirstwork.txt 
+   17  git status
+   18  git add myfirstwork.txt 
+   19  git status
+   20  git commit -m "myfirstwork.txt" 
+   21  touch mysecondwork
+   22  git status
+   23  git add mysecondwork 
+   24  git commit -m "mysecondwork" 
+   25  git status
+   26  git config --global user.email sreejakn.pbi@gamil.com
+   27  git config --global user.email sreejakn.pbi@gmail.com
+   28  [200~  git config --global user.email sreejakn.pbi@gmail.com
+   29  git branch
+   30  git status
+   31  rm -f mysecondwork 
+   32  git status
+   33  git add .
+   34  git commit -m "removed one file"
+   35  ls -l
+   36  cp firstfile.txt fordeletecheck.txt
+   37  git status
+   38  git add .
+   39  git status
+   40  git commit -m "adding one file for delete check"
+   41  git status
+   42  rm -f fordeletecheck.txt 
+   43  git add .
+   44  git commit -m "removed one file"
+   45  cp firstfile.txt fordeletecheck
+   46  git add firstfile.txt fordeletecheck 
+   47  git commit firstfile.txt fordeletecheck 
+   48  git commit -m "remove file" 
+   49  clear
+   50  git status
+   51  git add chumma.txt 
+   52  git status
+   53  git commit -m "adding a file"
+   54  git status
+   55  git add .
+   56  git status
+   57  git status
+   58  git add .
+   59  git status
+   60  git commit -m "adding a file and modifying a file"
+   61  git status
+   62  git add .
+   63  git status
+   64  git commit -m "delete file"
+   65  git status
+   66  git add .
+   67  git commit -m ""
+   68  git commit -m "oru file add cheyyunnu"
+   69  rm -f test\ again.txt 
+   70  git add .
+   71  git commit -m "oru file add cheythathu delete cheythu"
+   72  git status
+   73  git clone https://github.com/sreejakn/ibsplc.git
+   74  git push -u origin main
+   75  ls
+   76  ls -l
+   77  cd ibsplc/
+   78  touch file1.txt
+   79  history > file1.txt 
